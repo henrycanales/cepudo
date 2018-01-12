@@ -1,0 +1,16 @@
+<?php
+//error_reporting(0);
+$Servidor="localhost";
+$Usuario="cepudo";
+	$Pass="cepudo#2017";
+$BD="Cepudo";
+
+$conexion= mysqli_connect($Servidor, $Usuario, $Pass, $BD);
+
+if (mysqli_connect_error())
+  {
+  echo "Conexion Fallidad a MySQL: " . mysqli_connect_error();
+  }
+
+
+?>

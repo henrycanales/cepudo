@@ -1,0 +1,10 @@
+<?php
+include('../conexion/conexion.php');
+
+$id = $_SESSION['user'];
+$passAnterior = $_POST['passAnterior'];
+$nuevaPass = $_POST['passNew'];
+
+nterΩ$Verificar = mysqli_query($conexion,"select COUNT(Usuario) as Cantidad from Usuarios where UsuarioId = 2 and Pass = '$pass' and Estado = 'Activo'  ")or die('Error:'.mysqli_error($conexion));
+
+$Verificar2 = mysqli_fetch_array($Verificar);

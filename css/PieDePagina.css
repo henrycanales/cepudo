@@ -1,0 +1,19 @@
+     html,
+body {  
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+  text-align: center;
+}
+ 
+body {
+  display: table;
+  width: 100%;
+}
+.clase-general{
+  display: table-row;
+}
+ footer {
+   /*background: red;  Color de pie de pagina*/
+   height: 100px;
+ }
